@@ -52,13 +52,6 @@ ln -sfn ~/dotfiles/.config/alacritty ~/.config/alacritty
 ln -sfn ~/dotfiles/.config/nvim ~/.config/nvim
 ln -sfn ~/dotfiles/.config/yazi ~/.config/yazi
 
-# Ghostty y DMS: se enlazan archivos sueltos para que los colores que
-# genera DMS (themes/dankcolors, settings.json) no terminen en el repo
-mkdir -p ~/.config/ghostty/themes ~/.config/DankMaterialShell/themes
-ln -sf ~/dotfiles/.config/ghostty/config ~/.config/ghostty/config
-ln -sf ~/dotfiles/.config/ghostty/themes/alacritty-fabian ~/.config/ghostty/themes/alacritty-fabian
-ln -sf ~/dotfiles/.config/DankMaterialShell/themes/fabian-monokai-indigo.json ~/.config/DankMaterialShell/themes/fabian-monokai-indigo.json
-
 mkdir -p ~/.oh-my-zsh/custom/themes
 ln -sf ~/dotfiles/.oh-my-zsh/custom/themes/parrot.zsh-theme ~/.oh-my-zsh/custom/themes/parrot.zsh-theme
 
